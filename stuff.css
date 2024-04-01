@@ -1,0 +1,45 @@
+.trial {
+    background-color: green; 
+    width: 50px; 
+    height: 50px; 
+    margin-left: 75%;
+}
+
+#tst2 {
+    background-color: red;
+    width: 50px; 
+    height: 50px; 
+    margin-left: 75%;
+}
+
+.trial:hover + #tst2 {
+    background-color: orange;
+}
+
+.test {
+    position: absolute;
+    border-radius: 45%;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.65s;
+}
+
+.test:hover {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+}
+
+#imgtest {
+    border-radius: 100px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    image-resolution:unset;
+}
+
+input {
+    visibility: hidden;
+}
+
+
