@@ -1,12 +1,11 @@
 const UPI = 'User_Profile_Image'
-
 window.onload = _ => {
     RetrieveImageData();
 };
 
 function RetrieveImageData() {
-    
-    var StoredImage = localStorage.getItem(UPI);
+    console.log("a")
+    StoredImage = localStorage.getItem(UPI);
 
     if (!StoredImage) {
         return;
